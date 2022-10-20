@@ -1,0 +1,25 @@
+/* .title-box .img123 {
+  height: 54px;
+  width: 204px;
+  background: url(../images/1a.png);
+  padding: 0 0 52px;
+  margin: 0 auto 30px;
+} */
+
+.carousel-caption {
+  bottom: 3.5rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+@media(max-width:1070px) {
+
+  .carousel-caption {
+    bottom: 1.25rem;
+  }
+}
